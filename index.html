@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Yerimah Gisla Limnyuy | Software Engineering Student &amp; Aspiring Web Designer</title>
+  <meta name="description" content="Portfolio of Yerimah Gisla Limnyuy, a software engineering student building toward a career in web design.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home">Yerimah G. Limnyuy</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav id="siteNav" class="site-nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <img class="hero-photo" src="images/profile.jpg" width="480" height="600" alt="Portrait of Yerimah Gisla Limnyuy wearing glasses and a black headwrap, resting their chin on one hand.">
+      <div class="hero-text">
+        <h1>Yerimah Gisla Limnyuy</h1>
+        <p class="role">Software engineering student and aspiring web designer</p>
+        <p class="lead">I’m a student learning to build websites, design websites and pick up other software skills along the way.</p>
+        <div class="hero-actions">
+          <a class="button" href="#projects">See my projects</a>
+          <a class="button button-quiet" href="#contact">Get in touch</a>
+        </div>
+        <div class="picker" role="group" aria-label="Choose the site accent color">
+          <span class="picker-label">Pick the accent color for this site</span>
+          <button class="swatch" data-color="#2a6fdb" style="--swatch:#2a6fdb" aria-label="Blue" aria-pressed="true"></button>
+          <button class="swatch" data-color="#1c8a5f" style="--swatch:#1c8a5f" aria-label="Green" aria-pressed="false"></button>
+          <button class="swatch" data-color="#c2377d" style="--swatch:#c2377d" aria-label="Magenta" aria-pressed="false"></button>
+          <button class="swatch" data-color="#b87503" style="--swatch:#b87503" aria-label="Amber" aria-pressed="false"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="prose">
+          
+          <p>I'm a software engineering student. I enjoy the part of development where code turns into something people can see and use, which is why I want to grow into web design.</p>
+          <p>During my internship and school work I built projects that taught me how a site goes from an idea to something working. I'm now focused on design: layout, typography, color and making pages comfortable on a phone.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Studying</dt><dd>Software Engineering</dd></div>
+          <div><dt>Aiming for</dt><dd>Web design</dd></div>
+          <div><dt>Experience</dt><dd>School projects and an internship</dd></div>
+          <div><dt>Based in</dt><dd>Cameroon</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <!-- TODO: remove anything you can't back up, add what you really use -->
+        <div>
+          <h3>Build</h3>
+          <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive layouts</li></ul>
+        </div>
+        <div>
+          <h3>Design</h3>
+          <ul><li>Layout and spacing</li><li>Typography</li><li>Color choices</li><li>Mobile-first thinking</li></ul>
+        </div>
+        <div>
+          <h3>Work</h3>
+          <ul><li>Git and GitHub</li><li>Team projects</li><li>Using AI tools and checking their output</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <ol class="project-list">
+       
+        <li class="project">
+          <img class="project-shot" src="images/digitalbank.jpg" width="960" height="449" loading="lazy" alt="Digitalbank landing page with a navigation bar, the headline Next generation digital banking, a Request Invite button and phone screens showing the banking app.">
+          <div class="project-body">
+            <h3>Digitalbank landing page</h3>
+            <p>A landing page for a digital banking service. It has a navigation bar, a headline with a call-to-action button, and a hero section showing the mobile app screens.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+          </div>
+        </li>
+        <li class="project">
+          <img class="project-shot" src="images/again.jpg" width="960" height="431" loading="lazy" alt="Again online shop page showing 376 results for DJI phantom, with price and feature filters on the left and drone product cards with prices and ratings.">
+          <div class="project-body">
+            <h3>Again online shop: search results page</h3>
+            <p>A shopping results page for an online store. It has a search bar, category navigation, a price filter, feature checkboxes, a sort menu and a grid of product cards with prices and ratings.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="prose">
+          <p>Open to internships, collaborations and feedback on my work. Send a message or use one of the links.</p>
+          <ul class="contact-links">
+            <!-- TODO: replace the three links below with your own -->
+            <li><a href="mailto:yerimahlimnyuy695@gmail.com">yerimahlimnyuy695@gmail.com</a></li>
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+        <form id="contactForm" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <p class="error" id="nameError" role="alert"></p>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <p class="error" id="emailError" role="alert"></p>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <p class="error" id="messageError" role="alert"></p>
+
+          <button class="button" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Yerimah Gisla Limnyuy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
