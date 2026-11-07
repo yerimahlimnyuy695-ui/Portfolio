@@ -180,3 +180,57 @@ form .button { margin-top: 1rem; justify-self: start; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 30rem) {
+  .site-header {
+    gap: 0.75rem;
+  }
+
+  .wordmark {
+    font-size: 1rem;
+  }
+
+  .nav-toggle {
+    min-height: 2.75rem;
+  }
+
+  .hero-actions .button {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .swatch {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .section {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .contact-links a {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 30.01rem) and (max-width: 47.99rem) {
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .hero {
+    gap: 2rem;
+  }
+
+  .project {
+    gap: 1rem;
+  }
+}
